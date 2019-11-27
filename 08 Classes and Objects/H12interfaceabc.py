@@ -1,4 +1,4 @@
-from abc import ABCMeta, abstractclassmethod
+from abc import ABCMeta, abstractmethod
 
 class IStream(metaclass=ABCMeta):
     @abstractmethod
